@@ -70,7 +70,7 @@ be modified in the script.
 
 ```matlab
 Decision_Tree_mSOFA
-
+```
 
 ---
 
@@ -87,3 +87,35 @@ imbalance.
 
 - Decision trees are trained using MATLAB’s fitctree function with
 cost-sensitive learning.
+
+---
+
+## Reproducibility
+
+All random processes use fixed random seeds to ensure reproducible results.
+
+---
+
+## Citation
+
+If you use this code, please cite the corresponding manuscript:
+
+[Alberto López Ballesteros; Erik Alonso; Iraia Isasi, Asier Losada, Samantha Díaz-González; Sergio Rodriguez-Cañamero; José Luis Martín-Conty; Begoña Polonio-López; Carlos del Pozo-Vegas; Raúl López-Izquierdo; Francisco Martín-Rodríguez; Ancor Sanz-García]. Deconstructing the Modified Sequential Organ Failure Assessment (mSOFA) Score: A Decision Tree Analysis Reveals the Pathophysiological Hierarchy of Organ Dysfunction Predictors in Prehospital Critical Care.
+
+---
+
+## License
+
+This code is provided for academic and research use.
+You may reuse and adapt it with appropriate citation.
+
+---
+
+## Contact
+
+For questions or clarifications related to the code or methodology, please
+contact:
+
+[Erik Alonso]
+[University of the Basque Country (UPV/EHU)]
+[erik.alonso@ehu.eus]
