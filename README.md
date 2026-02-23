@@ -70,3 +70,20 @@ be modified in the script.
 
 ```matlab
 Decision_Tree_mSOFA
+
+
+---
+
+## Methodological notes
+
+- Cross-validation folds and train/test splits are patient-wise and
+quasi-stratified, preserving at least 90% of the original
+survivor/nonsurvivor proportions.
+
+- Balanced accuracy is used as the optimization criterion to account for class
+imbalance.
+
+- AUC confidence intervals are estimated using 1000 bootstrap resamples.
+
+- Decision trees are trained using MATLAB’s fitctree function with
+cost-sensitive learning.
